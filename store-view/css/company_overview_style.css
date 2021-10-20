@@ -1,0 +1,40 @@
+/**
+*@author Ravindu Lakshan <ravindulakshan877@gmail.com>
+*@since 10/10/2021
+**/
+
+
+#pages_path{
+    width: max-content;
+    height: max-content;
+}
+
+
+#company_overview{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#company_overview_mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#company_overview_img{
+    width: 60vh;
+    height: 55vh;
+    margin-right: 10vh;
+}
+
+#company_overview_txt{
+    width: 71.5vh;
+    height: 55vh;
+}

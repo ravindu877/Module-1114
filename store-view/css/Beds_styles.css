@@ -1,0 +1,38 @@
+/**
+*@author Ravindu Lakshan <ravindulakshan877@gmail.com>
+*@since 10/11/2021
+**/
+
+
+#beds{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#beds_scroll{
+    width: 100%;
+    height: 200%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product_line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45%;
+    margin-top: 2.5vh
+}
+
+.product1{
+    width: 37%;
+    height: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

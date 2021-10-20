@@ -1,0 +1,437 @@
+/**
+*@author Ravindu Lakshan <ravindulakshan877@gmail.com>
+*@since 10/12/2021
+**/
+
+/**
+*@author Ravindu Lakshan <ravindulakshan877@gmail.com>
+*@since 10/9/2021
+**/
+
+
+#homePage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.homeHeader{
+    display:flex ;
+    flex-direction: column;
+    width: 100%;
+    height: 15%;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.homeBody{
+    width: 100%;
+    height: 75%;
+    background-color: #F7F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeFooter{
+    width: 100%;
+    height: 10%;
+    background-color: #1B2E3C;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar1 {
+    background-color:#F7F8F8;
+    width: 100%;
+    height: 10vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.compant_name{
+    width: 40%;
+    height: 100%;
+    background-color: #F7F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/*=================================================================================*/
+
+
+#compant_name_text{
+    cursor: pointer;
+}
+
+.nav_items{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F8F8;
+}
+
+.nav_items_ul{
+    width: max-content;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+}
+
+.div_navbar_items{
+    width: max-content;
+    height: max-content;
+}
+
+.navbar1 li.logo,
+.navbar1 li.navbar_items {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar1 li a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: #1B2E3C;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+.navbar1 li.navbar_items a:hover {
+    color:  #1B2E3C;
+    border-bottom-style: ridge;
+    border-bottom-color: #1B2E3C;
+    padding-bottom: 5px;
+}
+
+.navbar1 li.icon {
+    display: none;
+}
+
+
+.navbar_items{
+    cursor: pointer;
+}
+
+
+/*=================================================================================*/
+
+
+
+.navbar2 {
+    background-color: #1B2E3C;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2_text{
+    color: aliceblue;
+    font-size: small;
+    cursor: pointer;
+}
+
+.dropbtn{
+    color: aliceblue;
+    font-size: small;
+    cursor: pointer;
+}
+
+.nav2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.nav2_items{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.category{
+    cursor: pointer;
+}
+
+
+/*=================================================================================*/
+
+
+#footer_item{
+    width: 35%;
+    height: 100%;
+    background-color: #1B2E3C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav3_items{
+    margin-right: 5vh;
+}
+
+
+.nav3_img{
+    width: 5vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3vh;
+    border: 1px solid aliceblue;
+}
+
+
+#footer_buttons{
+    width: 35%;
+    height: 100%;
+    background-color: #1B2E3C;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_btns{
+    background-color: mediumspringgreen;
+    width: 110px;
+    height: 35px;
+    border-radius: 6px;
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*=================================================================================*/
+
+
+
+#pageHeader{
+    width: 70%;
+    height: 5%;
+    margin-top: 1vh;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_path_holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#page_content{
+    width: 70%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#home_page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*=================================================================================*/
+
+
+
+#sign-in-page{
+    width: 100%;
+    height: 100vh;
+}
+
+#sign-in-page-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/slide_05.png');
+    background-size: cover;
+}
+
+
+#sign-in-form{
+    width: 330px;
+    height: 410px;
+    background-color: #F7F8F8;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sign-in-input{
+    font-size: small;
+    padding-left: 10px;
+    width: 125%;
+    height: 27px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.sign-in-input:focus{
+    outline: none;
+    border: 1px solid mediumspringgreen;
+}
+
+
+#sign-in-btn{
+    width: 125%;
+    height: 29px;
+    border-style: double;
+    border-color: powderblue;
+    background-color: mediumspringgreen;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+
+
+#sign-in-btn:hover{
+    background-color: #12FA77;
+}
+
+
+.sign-in-page-company-name{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+
+#sign-in-page-close{
+    height: 10%;
+    width: 5%;
+    position: absolute;
+    top: 5%;
+    right: 2.5%;
+    background-color: #12FA77;
+}
+
+
+/*=================================================================================*/
+
+
+#sign-up-page{
+    width: 100%;
+    height: 100vh;
+}
+
+#sign-up-page-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/slide_05.png');
+    background-size: cover;
+}
+
+
+#sign-up-form{
+    width: 330px;
+    height: 450px;
+    background-color: #F7F8F8;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sign-up-input{
+    font-size: small;
+    padding-left: 10px;
+    width: 125%;
+    height: 27px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.sign-up-input:focus{
+    outline: none;
+    border: 1px solid mediumspringgreen;
+}
+
+
+#sign-up-btn{
+    width: 125%;
+    height: 29px;
+    border-style: double;
+    border-color: powderblue;
+    background-color: mediumspringgreen;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+
+
+#sign-up-btn:hover{
+    background-color: #12FA77;
+}
+
+
+
+
+
+
+

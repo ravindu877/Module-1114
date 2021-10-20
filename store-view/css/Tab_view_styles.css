@@ -1,0 +1,153 @@
+/**
+*@author Ravindu Lakshan <ravindulakshan877@gmail.com>
+*@since 10/12/2021
+**/
+
+
+@media only screen and (max-width: 800px) {
+    .homeHeader {
+        height: 20%;
+    }
+
+    .homeBody {
+        height: 70%;
+    }
+
+    #pageHeader {
+        height: 3%;
+    }
+
+    .page_path {
+        font-size: 9px;
+    }
+
+    #page_content {
+        width: 96%;
+    }
+
+    .showcase-slider-container {
+        width: 96vw;
+        height: 100%;
+    }
+
+    .navbar1 {
+        flex-direction: column;
+        height: 15vh;
+
+    }
+
+    .navbar2 {
+        height: auto;
+    }
+
+    .compant_name, .nav_items {
+        width: 100%;
+        height: 50%;
+    }
+
+    #compant_name_text {
+        font-size: 22px;
+    }
+
+    .navbar1 li a {
+        font-size: 12px;
+        padding: 0px 6px;
+    }
+
+    .nav2_items, .dropdown {
+
+        text-align: center;
+
+    }
+
+    .nav2_text, .dropbtn {
+        font-size: x-small;
+    }
+
+    #footer_item {
+        width: max-content;
+        justify-items: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav3_items_text {
+        font-size: small;
+    }
+
+    .nav3_items {
+        margin-right: 3vh;
+    }
+
+    .nav3_img {
+        margin-right: 3vh;
+    }
+
+    #pages_path {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: max-content;
+        height: max-content;
+    }
+
+    #company_overview {
+        width: 95%;
+        height: 97%;
+    }
+
+
+
+    #company_overview_img {
+        width: 100%;
+        height: 100%;
+        margin-right: 0;
+    }
+
+    #company_overview_txt {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact_type_txt{
+        font-size: small;
+    }
+
+    .contact_info_txt{
+        font-size: small;
+    }
+
+    .contact_info_input{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 7%;
+        width: 80%;
+    }
+
+    #product_info_page{
+        height: 95%;
+    }
+
+    .product_info_txt{
+        font-size: 15.5px;
+    }
+
+    #product_info_desc_txt{
+        margin-bottom:0.8%;
+    }
+
+    .product_info_point{
+        font-size: 14px;
+    }
+
+    #footer_buttons {
+        width: 33%;
+    }
+
+    #footer_item {
+        width: 47%;
+    }
+
+}

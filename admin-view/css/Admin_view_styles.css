@@ -1,0 +1,21 @@
+/**
+*@author Ravindu Lakshan <ravindulakshan877@gmail.com>
+*@since 10/19/2021
+**/
+
+
+#site-container{
+    width: 100%;
+    height: 100vh;
+}
+
+
+#admin-dashboard{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

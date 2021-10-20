@@ -1,0 +1,93 @@
+/**
+*@author Ravindu Lakshan <ravindulakshan877@gmail.com>
+*@since 10/10/2021
+**/
+
+#contact_us{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#contact_us_rows{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+
+#contact_us_methods{
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+.contact_type_txt{
+    color: #1B2E3C
+}
+
+.contact_info_txt{
+    color: #1B2E3C;
+}
+
+
+#contact_us_space{
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+
+#contact_us_phone{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+#contact_us_mail{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+#contact_us_address{
+    width: 27%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+#contact_us_2row{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#contact_us_form{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact_us_map{
+    width: 60%;
+    height: 100%
+}
+
+.contact_info_input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7%;
+    width: 70%;
+}

@@ -1,0 +1,42 @@
+/**
+*@author Ravindu Lakshan <ravindulakshan877@gmail.com>
+*@since 10/14/2021
+**/
+
+@media only screen and (max-width: 1050px) {
+
+
+    .contact_type_txt{
+        font-size: small;
+    }
+
+    .contact_info_txt{
+        font-size: small;
+    }
+
+    .nav2_text {
+        color: aliceblue;
+        font-size: x-small;
+        cursor: pointer;
+    }
+
+    #sign-in-form{
+        width: 330px;
+        height: 410px;
+    }
+
+    #sign-up-form {
+        width: 330px;
+        height: 450px;
+    }
+
+    #footer_buttons {
+        width: 33%;
+    }
+
+    #footer_item {
+        width: 47%;
+    }
+
+
+}

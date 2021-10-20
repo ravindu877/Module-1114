@@ -1,0 +1,294 @@
+/**
+*@author Ravindu Lakshan <ravindulakshan877@gmail.com>
+*@since 10/12/2021
+**/
+
+@media only screen and (max-width: 450px){
+
+    .homeHeader{
+        height: 35%;
+    }
+
+    .homeBody{
+        height: 55%;
+    }
+
+    #pageHeader{
+        height: 3%;
+    }
+
+    .page_path{
+        font-size: 9px;
+    }
+
+    #page_content{
+        width: 96%;
+    }
+
+    #home_page{
+        height: 60%;
+    }
+
+    .showcase-slider-container{
+        width: 96vw;
+        height: 100%;
+    }
+
+    .navbar1{
+        flex-direction: column;
+    }
+
+    .navbar2{
+        height: auto;
+    }
+
+    .compant_name, .nav_items {
+        width: 100%;
+        height: 50%;
+    }
+
+    #compant_name_text{
+        font-size: 20px;
+    }
+
+    .navbar1 li a {
+        font-size: 10px;
+        padding: 0px 4px;
+    }
+
+    .nav2{
+        flex-direction: column;
+    }
+
+    .nav2_items, .dropdown{
+        border-bottom: 0.2px solid #F7F8F8;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav2_text, .dropbtn{
+        font-size: x-small;
+    }
+
+    #footer_item{
+        width: max-content;
+        justify-items: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav3_items_text{
+        font-size: x-small;
+    }
+
+    .nav3_items{
+        margin-right: 1vh;
+    }
+
+    .nav3_img{
+        margin-right: 1vh;
+    }
+
+    #pages_path{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #company_overview{
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+    #company_overview_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 97%;
+        height: 179%;
+    }
+
+    #company_overview_img {
+        width: 98%;
+        height: 100%;
+        margin-right: 0;
+        margin-top: 5px;
+    }
+
+    #company_overview_txt{
+        width: 98%;
+        height: 100%;
+    }
+
+
+    #contact_us{
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+    #contact_us_rows{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200%;
+    }
+
+    #contact_us_2row{
+        flex-direction: column;
+    }
+
+
+    #contact_us_space{
+        width: 5%;
+    }
+
+    #contact_us_phone{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+    #contact_us_mail{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+    #contact_us_address{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+
+    #contact_us_methods{
+        flex-direction: column;
+        height: 36%;
+    }
+
+
+    .contact_type_txt{
+        font-size: medium;
+    }
+
+    .contact_info_txt{
+        font-size: medium;
+        margin-top: 20px;
+    }
+
+    #contact_us_form{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    #contact_us_map{
+        width: 100%;
+        height: 100%
+    }
+
+    #beds_scroll{
+        height: 500%;
+    }
+
+    .product_line{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 45%;
+        margin-top: 2.5vh
+    }
+
+    .product1{
+        width: 70%;
+        height: 100%;
+        margin-bottom: 10%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    #product_info_page_scroll{
+        width: 100%;
+        height: auto;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    #product_info_holder{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height:60%;
+        margin-bottom: 3%
+    }
+
+    #product_info{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height:100%;
+        margin-right:0;
+    }
+
+    #product_info_page_main_photo{
+        display: flex;
+        flex-direction: column;
+        width: 77%;
+        height: 64.5vw;
+        margin-right:0;
+    }
+
+    #product_details{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:100%;
+        margin-top: 20px;
+        margin-bottom: 10%;
+    }
+
+    #product_info_page_table{
+        height: 20%;
+    }
+
+
+    #product_info_desc_txt{
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-bottom:3%;
+    }
+
+    .product_info_point{
+        margin-left: 3%;
+        margin-bottom: 3%;
+    }
+
+    #sign-in-form {
+        width: 295px;
+        height: 375px;
+    }
+
+    #sign-up-form {
+        width: 300px;
+        height: 450px;
+    }
+
+}
