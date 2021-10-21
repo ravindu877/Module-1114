@@ -7,12 +7,106 @@
     <meta name="theme-color" content="white">
     <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=2 minimum-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Admin_view_styles.css">
 </head>
 <body>
 <section id="site-container">
     <section id="admin-dashboard">
+        <div id="admin-dashboard-header">
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; width: 40%; height: 100%">
+                <div style="display: flex; flex-direction: column; justify-content: center; width: 62%; height: 100%">
+                    <h1 id="admin-dashboard-name">Admin Dashboard</h1>
+                    <h5 id="site-name">abccompany.lk</h5>
+                </div>
+            </div>
+            <div>
 
+            </div>
+        </div>
+        <div id="admin-dashboard-body-container">
+            <div id="admin-dashboard-body">
+                <div id="all-products"></div>
+                <div id="product-manage">
+                    <form class="row g-3 w-70 " style="margin: 50px" id="user-registration-input-form">
+
+                        <div class="col-6">
+                            <label for="proName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="proName" placeholder="">
+                        </div>
+                        <div class="col-3">
+                            <label for="code" class="form-label">Code</label>
+                            <input type="text" class="form-control" id="code" placeholder="">
+                        </div>
+                        <div class="col-3">
+                            <label for="proId" class="form-label">ID</label>
+                            <input type="text" class="form-control" id="proId" placeholder="">
+                        </div>
+                        <div class="col-3">
+                            <label for="price" class="form-label">Price</label>
+                            <input type="text" class="form-control" id="price" placeholder="">
+                        </div>
+                        <div class="col-9"></div>
+                        <div class="col-6">
+                            <label for="specification" class="form-label">Specification</label>
+                            <textarea class="form-control" id="specification" rows="5"></textarea>
+                        </div>
+                        <div class="col-6">
+                            <label for="description" class="form-label">Description</label>
+                            <textarea class="form-control" id="description" rows="5"></textarea>
+                        </div>
+                        <div class="col-6">
+                            <label for="dimensions" class="form-label">Dimensions</label>
+                            <textarea class="form-control" id="dimensions" rows="5"></textarea>
+                        </div>
+                        <div class="col-6">
+                            <label for="warranty" class="form-label">Warranty</label>
+                            <textarea class="form-control" id="warranty" rows="5"></textarea>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="category" class="form-label mt-2">Category</label>
+                            <select class="form-select " id="category">
+                                <option selected disabled>select Type</option>
+                                <option value="General">General</option>
+                                <option value="Premium">Premium</option>
+                                <option value="Luxury">Luxury</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <P class="h5 w-auto mt-5 mb-2" style="float: none; margin: 0 auto;">Images of the Product</P>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label mt-3" for="mainView">Main view</label>
+                            <input type="file" class="form-control" id="mainView">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label mt-3" for="View1">View 1</label>
+                            <input type="file" class="form-control" id="View1">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label mt-3" for="View2">View 2</label>
+                            <input type="file" class="form-control" id="View2">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label mt-3" for="View3">View 3</label>
+                            <input type="file" class="form-control" id="View3">
+                        </div>
+                        <div class="col-12 mt-5 mb-5">
+                            <div class="w-50" style="float: none; margin: 0 auto;">
+                                <button type="button" class="btn btn-primary w-100" id="btnSaveProduct">Save</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
 </section>
+<script src="jq/jquery-3.6.0.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="jScript/Product-manage-script.js"></script>
 </body>
 </html>

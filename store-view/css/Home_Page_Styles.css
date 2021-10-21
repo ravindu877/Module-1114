@@ -356,7 +356,6 @@
     position: absolute;
     top: 5%;
     right: 2.5%;
-    background-color: #12FA77;
 }
 
 
@@ -429,6 +428,14 @@
     background-color: #12FA77;
 }
 
+
+#sign-up-page-close{
+    height: 10%;
+    width: 5%;
+    position: absolute;
+    top: 5%;
+    right: 2.5%;
+}
 
 
 

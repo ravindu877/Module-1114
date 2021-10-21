@@ -1,5 +1,12 @@
 
 
+$("#sign-up-page-close-btn").click(function () {
+    hideBodyContent();
+    hideAllContents();
+    $("#homePage,#home_page").css('display', 'block');
+});
+
+
 
 $("#sign-up-btn").click(function () {
 

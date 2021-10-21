@@ -22,9 +22,17 @@ public class Product {
 
     @Id
     private String proID;
+    private String code;
     private String name;
-    private double price;
+    private String price;
+    private String specification;
     private String description;
+    private String dimensions;
+    private String warranty;
+    private String mainView;
+    private String view1;
+    private String view2;
+    private String view3;
 
     @ManyToOne
     @JoinColumn(name = "adminID", referencedColumnName = "adminID")

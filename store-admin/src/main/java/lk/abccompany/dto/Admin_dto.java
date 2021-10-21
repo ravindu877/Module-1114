@@ -21,7 +21,6 @@ public class Admin_dto {
     private String adminID;
     private String userName;
     private String password;
-    private List<Product> products= new ArrayList<>();
 
 
 }
